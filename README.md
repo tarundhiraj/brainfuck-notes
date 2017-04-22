@@ -14,6 +14,7 @@ a segmentation fault. So make sure you don't go beyond extreme left and right ce
 
 Now, let's look at the commands below:
 
+<pre>
 + : increment the value at the current cell by 1
 - : decrement the value at the current cell by 1
 > : move to adjacent right cell
@@ -23,6 +24,7 @@ Now, let's look at the commands below:
 [ : move to corresponding ], if the value in the current cell is zero
 ] : move back to the corresponding [, if the value at current cell is non-zero
 
+</pre>
 Note: [ & ] together are used to make loops and if conditions. As with the braces in other languages, they must be balanced.
 
 Please refer to source codes for basic programs in Brainfuck
